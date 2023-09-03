@@ -1,32 +1,31 @@
 /* Syles for header */
 
 body {
-    margin: 0;
-}
-.header{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family:  sans-serif;
+}
+.header{
     background-color: #1f2937;
 }
-
 .logo-links > ul {
     display: flex;
     list-style-type: none;
     gap: 20px;
 }
-
 a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     color: #E5E7EB; 
-}
 
+}
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+    margin-right: auto;
 }
-
-
 .header > ul{
     list-style: none;
 
@@ -35,25 +34,28 @@ a {
 .logo-links {
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    padding: 5px 105px;
 }
 
 .text-button {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 .image {
-    display: flex;
-    margin: 0;
-    width: 100px;
-    padding: 50px 125px;
+    padding: 85px 125px;
     background-color: gray;
+    color: #F9FAF8;
+    white-space: nowrap;
+    flex: 0; 
 }
 .text-image {
     display: flex;
-    padding: 55px 105px;
+    padding: 60px 125px;
     justify-content: space-around;
     align-items: center;
+    gap: 50px;
+    color: #F9FAF8;
 }
 
 .buttons > button {
@@ -61,10 +63,52 @@ a {
     border: 0;
     border-radius: 5px;
     padding: 5px 20px;
+    color: #F9FAF8;
 }
 
 .subtitle {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+}
+
+/* 1st subsection */
+
+.body-1 {
+    color: #F9FAF8; 
+    display: flex;  
+    flex-direction: column;
+}
+
+.random {
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box-text{
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+}
+
+.box-text > p{
+    color: black;
+    text-align: center;
+}
+
+.box {
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    padding: 75px 75px;
 }
